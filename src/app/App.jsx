@@ -4,8 +4,8 @@ import DashboardPage from "../pages/DashboardPage.jsx";
 import ChallengePage from "../pages/ChallengePage.jsx";
 import ResultsPage from "../pages/ResultsPage.jsx";
 import ProgressPage from "../pages/ProgressPage.jsx";
-import LeaderboardPage from "../pages/LeaderBoardPage.jsx";
-
+import LeaderboardPage from "../pages/LeaderboardPage.jsx
+// import LeaderboardPage from "../pages/LeaderBoardPage.jsx";
 export default function App() {
   return (
     <BrowserRouter>
