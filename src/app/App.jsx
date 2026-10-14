@@ -1,10 +1,10 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
-import LoginPage from "../pages/LoginPage";
-import DashboardPage from "../pages/DashboardPage";
-import ChallengePage from "../pages/ChallengePage";
-import ResultsPage from "../pages/ResultsPage";
-import ProgressPage from "../pages/ProgressPage";
-import LeaderboardPage from "../pages/LeaderBoardPage";
+import LoginPage from "../pages/LoginPage.jsx";
+import DashboardPage from "../pages/DashboardPage.jsx";
+import ChallengePage from "../pages/ChallengePage.jsx";
+import ResultsPage from "../pages/ResultsPage.jsx";
+import ProgressPage from "../pages/ProgressPage.jsx";
+import LeaderboardPage from "../pages/LeaderBoardPage.jsx";
 
 export default function App() {
   return (
