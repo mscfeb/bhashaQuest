@@ -4,7 +4,7 @@ Bhasha Quest frontend (integrated API version)
 Copy this src/ directory over your existing frontend/src/ directory.
 
 Environment (.env at frontend root):
-  VITE_API_BASE_URL=http://127.0.0.1:8000
+   API_BASE_URL=http://127.0.0.1:8000
 
 The backend Google login response must include the database user ID in
 `user.id` or directly in `id`; the frontend reads it from localStorage.

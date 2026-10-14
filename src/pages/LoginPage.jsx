@@ -5,10 +5,10 @@ import { useNavigate } from "react-router-dom";
 import Brand from "../components/ui/Brand";
 
 const API_BASE_URL = (
-  import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000"
+  import.meta.env.API_BASE_URL || "http://127.0.0.1:8000"
 ).replace(/\/+$/, "");
 
-const GOOGLE_CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID;
+const GOOGLE_CLIENT_ID = import.meta.env.GOOGLE_CLIENT_ID;
 
 function LoginContent() {
   const navigate = useNavigate();
@@ -129,7 +129,7 @@ function LoginContent() {
             />
           ) : (
             <p className="text-center text-sm text-red-700">
-              Google sign-in is not configured. Set VITE_GOOGLE_CLIENT_ID in
+              Google sign-in is not configured. Set  GOOGLE_CLIENT_ID in
               your frontend .env file.
             </p>
           )}
